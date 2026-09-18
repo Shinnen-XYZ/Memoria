@@ -27,7 +27,7 @@ class PantallaMemoria extends StatefulWidget {
 }
 
 class _PantallaMemoriaState extends State<PantallaMemoria> {
-  final List<String> _simbolos = ['🐶', '🐱', '🐵', '🦊', '🐸', '🐼', '🦁', '🐷'];
+  final List<String> _simbolos = ['🦞', '🐠', '🐉', '🦀', '🐸', '🐼', '🦁', '🦍'];
   late List<String> _cartas;
   late List<bool> _volteadas;
   late List<bool> _emparejadas;
