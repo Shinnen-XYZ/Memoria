@@ -12,7 +12,7 @@ class MiApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Juego de Memoria',
+      title: 'Juego de Memoria en flutter',
       theme: ThemeData(primarySwatch: Colors.deepPurple, useMaterial3: true),
       home: const PantallaMemoria(),
     );
@@ -112,13 +112,13 @@ class _PantallaMemoriaState extends State<PantallaMemoria> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color(0xFFF3EEFF),
+      backgroundColor: const Color.fromARGB(76, 255, 249, 238),
       appBar: AppBar(
-        title: const Text('Juego de Memoria'),
+        title: const Text('Juego de Memoria en flutter'),
         actions: [
           Padding(
             padding: const EdgeInsets.only(right: 16),
-            child: Center(child: Text('Intentos: $_intentos')),
+            child: Center(child: Text('Intentos que usted tealizo: $_intentos')),
           ),
         ],
       ),
